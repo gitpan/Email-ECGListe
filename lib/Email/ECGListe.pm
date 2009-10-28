@@ -4,7 +4,7 @@ use warnings;
 use strict;
 use Digest::SHA1 qw( sha1 );
 
-our $VERSION = '0.04';
+our $VERSION = '0.06';
 
 BEGIN {
 	use Exporter;

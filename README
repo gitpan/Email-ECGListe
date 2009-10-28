@@ -1,27 +1,26 @@
-ECGListe version 0.04
-=====================
+NAME
+    ECGListe - a module for alignment emailadresses with ECGListe
 
-INSTALLATION
+SYNOPSIS
+      use warnings;
+      use strict;
+      use ECGListe qw( Abgleich );
+            
+      # 1. Argument: ecg-liste
+      # 2. Argument: Eingabedatei
+      # 3. Argument: (D)elimited (F)ix (G)esamt (wenn nur die Emailadresse in der Eingabedatei steht)
+      # 4. Argument: wenn Delimited dann Feld der Emailadressen
+      #              wenn Fix       dann Stelle,Laenge der Emailadressen
+      #              wenn Gesamt    dann leer lassen
+      # 5. Argument: wenn Delimited dann Trennzeichen
+      #              sonst leer lassen
 
-To install this module type the following:
+      # Example
+      Abgleich("ecg-liste.hash", "Emailadressen.csv", "D", "1", ",");
 
-   perl Makefile.PL
-   make
-   make test
-   make install
+DESCRIPTION
+    ...
 
-DEPENDENCIES
+AUTHOR AND LICENSE
+    copyright 2009 (c) Gernot Havranek
 
-This module requires these other modules and libraries:
-
-   ECGListe
-
-COPYRIGHT AND LICENCE
-
-Put the correct copyright and licence information here.
-
-Copyright (C) 2009 by Gernot Havranek
-
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself, either Perl version 5.10.0 or,
-at your option, any later version of Perl 5 you may have available.
