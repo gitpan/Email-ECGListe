@@ -4,5 +4,8 @@ Revision history for Perl extension Email::ECGListe.
 	- original version; created by h2xs 1.23 with options
 		-XA -n Email::ECGListe
 
-0.02  Wed Oct 28 13:37:04 2009
+0.02  Wed Sep 28 13:20:04 2009
+	- bugfix
+
+0.03  Fri Sep 25 15:20:55 2009
 	- bugfix
