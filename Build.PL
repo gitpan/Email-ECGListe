@@ -12,6 +12,7 @@ my $build = Module::Build->new(
     },
     build_requires => {
         'Test::More'          => 0,
+        'Digest::SHA1'        => 0
     },
     recommends         => {
     },

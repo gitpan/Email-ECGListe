@@ -5,7 +5,7 @@ SYNOPSIS
       use warnings;
       use strict;
       use ECGListe qw( Abgleich );
-            
+        
       # 1. Argument: ecg-liste
       # 2. Argument: Eingabedatei
       # 3. Argument: (D)elimited (F)ix (G)esamt (wenn nur die Emailadresse in der Eingabedatei steht)

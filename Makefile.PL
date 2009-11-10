@@ -3,13 +3,14 @@ require 5.10.0;
 use ExtUtils::MakeMaker;
 WriteMakefile
 (
+          'PL_FILES' => {},
+          'INSTALLDIRS' => 'site',
           'NAME' => 'Email::ECGListe',
+          'EXE_FILES' => [],
           'VERSION_FROM' => 'lib/Email/ECGListe.pm',
           'PREREQ_PM' => {
-                           'Test::More' => 0
-                         },
-          'INSTALLDIRS' => 'site',
-          'EXE_FILES' => [],
-          'PL_FILES' => {}
+                           'Test::More' => 0,
+                           'Digest::SHA1' => 0
+                         }
         )
 ;
